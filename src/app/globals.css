@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary1: rgb(33, 38, 60);
+    --primary2: rgb(105, 133, 255);
+}
+
+.custom-dash-navs{
+    display: flex;
+}
+
+.custom-navbar {
+    background-color: var(--primary1);
+    color: #fff;
+    width: 100vw;
+    padding: 1rem;
+}
+
+.custom-sidebar{
+    background-color: var(--primary2);
+    color: #fff;
+    padding: 1rem;
+    height: 200vh;
+}
+
+.custom-content-data{
+    padding: 1rem;
+}
